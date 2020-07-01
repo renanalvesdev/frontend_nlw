@@ -1,0 +1,42 @@
+# da pasta public, deleta tudo de public e so deixa index.html
+# da pasta src, deleta app test, index css, logo svg, service worker e setup teste
+
+#nos arquivos index tsx, app tsx e index.html foram removidas dependencias e codigos em excesso
+
+
+# ENTENDENDO REACT !
+
+# JSX -> a possibilidade de entender html dentro de javascript 
+# por que componentes ? para reutilização em varias partes do codigo
+# {} dentro do html significa que quero usar valor de javascript
+#state é utilizad para refletir as mudancas de valor dentro do componente
+
+
+
+# para incorporar fontes , basta entrar no google fonts, selecionar as que eu quero, copiar o link gerado do lado
+direito e depois adicionar no index,html
+
+
+#ROTEAMENTO
+# foi utilizada a lib mais comum: react-router-dom
+
+#quando aparece o erro 'Could not find ..' pra typescript, eh necessario instalar o pacote de tipagem de forma separada.
+para isso: npm install @types/react-router-dom -D (nao precisa ser utilizado na producao pois la tudo eh convertido pra js nativo)
+
+# para evitar o carregamento (react é SPA) no momento do clique do href do botao, foi importado  o Link de router dom para tratar isso
+para provar, vc pode ir em network e verificar isso
+
+
+
+#MAPA
+
+# foi utilizado o leaflet. primeiro, no quickstart, deve ser copiado o css para o arquivo index
+importa Map, TitleLayer
+npm install leaflet react-leaflet
+npm install @types/react-leaflet -D
+
+
+
+#ITENS DA API NA TELA
+
+para exibir array ou objeto, eh necessario infroamr o tipo da variavel com a interface do typescript

@@ -1,0 +1,1 @@
+# comando para criar a aplicação react: npx create-react-app web --template=typescript | npx baixa e instala pacotes que faltam
